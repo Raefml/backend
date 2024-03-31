@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit;
 }
 
-require_once '../config/request_config.php';
 
 require_once '../config/dbconfig.php';
 
